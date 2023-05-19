@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "scratchdb",
+            "database": "scratchdb",
+            "username": "postgres",
+            "password": "14091998"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "paymentgateway",
+            "database": "paymentgateway",
+            "username": "postgres",
+            "password": "bindu@123"
+        }
+    ]
+}

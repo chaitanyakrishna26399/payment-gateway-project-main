@@ -22,8 +22,8 @@ import { SnakeNamingStrategy } from 'typeorm-naming-strategies';
         entities: ['dist/**/*.entity{.ts,.js}'],
          namingStrategy: new SnakeNamingStrategy(),
          synchronize: true,
-        //url: process.env.DATABASE_URL,
-         url: 'postgres://gjcbrhvxzmjesd:d1372e83a5f524d84ee4464c984c8619979b2651c3640948c683dda02ddbf228@ec2-44-209-186-51.compute-1.amazonaws.com:5432/d6g4qrk0cfutrf',
+        url: process.env.DATABASE_URL,
+        
          ssl: {
            rejectUnauthorized: false,
          },
